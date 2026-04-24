@@ -1,7 +1,9 @@
 # Event Tags AI Agent
 
 AI micro-service for the ticketing platform.  
-**Input →** event description &nbsp;|&nbsp; **Output →** tags list &nbsp;|&nbsp; **Live** for every new event.
+**Input →** event description &nbsp;|&nbsp; **Output →** tags list &nbsp;|&nbsp; **Live** for every new event.  
+
+**Live API Documentation:** [Azure Deployment](https://event-tags-ai-tegy-e8aqexa5fcguacc2.uaenorth-01.azurewebsites.net/docs)
 
 ---
 
@@ -33,7 +35,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Swagger UI → **http://localhost:8000/docs**
+Swagger UI (Local) → **http://localhost:8000/docs**  
+Swagger UI (Live) → [Azure Deployment](https://event-tags-ai-tegy-e8aqexa5fcguacc2.uaenorth-01.azurewebsites.net/docs)
 
 ---
 
@@ -77,4 +80,3 @@ Tags Model V2.0/
 ├── .env               ← API key
 └── requirements.txt
 ```
-"# semantic-tag-generator-tag-master-ai-" 
